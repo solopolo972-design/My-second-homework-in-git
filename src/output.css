@@ -638,6 +638,14 @@ video {
   width: 100%;
 }
 
+.w-\[848px\] {
+  width: 848px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .items-center {
   align-items: center;
 }
@@ -668,6 +676,18 @@ video {
 
 .gap-\[100px\] {
   gap: 100px;
+}
+
+.gap-\[500px\] {
+  gap: 500px;
+}
+
+.gap-\[200px\] {
+  gap: 200px;
+}
+
+.gap-\[00px\] {
+  gap: 00px;
 }
 
 .rounded-\[10px\] {
@@ -762,6 +782,10 @@ video {
 
 .p-\[50px\] {
   padding: 50px;
+}
+
+.p-\[100px\] {
+  padding: 100px;
 }
 
 .py-\[\] {
