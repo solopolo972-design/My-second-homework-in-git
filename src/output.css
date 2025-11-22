@@ -892,6 +892,10 @@ video {
     height: 50vh;
   }
 
+  .lg\:h-\[100vh\] {
+    height: 100vh;
+  }
+
   .lg\:w-\[50\%\] {
     width: 50%;
   }
@@ -902,5 +906,13 @@ video {
 
   .lg\:w-\[300px\] {
     width: 300px;
+  }
+
+  .lg\:w-\[80\%\] {
+    width: 80%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 }
