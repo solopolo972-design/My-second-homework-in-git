@@ -570,6 +570,14 @@ video {
   margin-top: 100px;
 }
 
+.mt-\[50px\] {
+  margin-top: 50px;
+}
+
+.mb-\[50px\] {
+  margin-bottom: 50px;
+}
+
 .block {
   display: block;
 }
@@ -771,6 +779,16 @@ video {
   padding-right: 30px;
 }
 
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.px-\[10px\] {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -793,6 +811,10 @@ video {
 
 .text-\[18px\] {
   font-size: 18px;
+}
+
+.text-\[30px\] {
+  font-size: 30px;
 }
 
 .font-bold {
