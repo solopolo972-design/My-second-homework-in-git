@@ -554,6 +554,22 @@ video {
   display: none;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
+.mb-\[30px\] {
+  margin-bottom: 30px;
+}
+
+.mt-\[100px\] {
+  margin-top: 100px;
+}
+
 .block {
   display: block;
 }
@@ -564,6 +580,38 @@ video {
 
 .hidden {
   display: none;
+}
+
+.w-\[\] {
+  width: ;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[600px\] {
+  width: 600px;
+}
+
+.w-\[610px\] {
+  width: 610px;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[40\%\] {
+  width: 40%;
 }
 
 .items-center {
@@ -598,6 +646,52 @@ video {
   gap: 100px;
 }
 
+.rounded-\[10px\] {
+  border-radius: 10px;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-\[1px\] {
+  border-width: 1px;
+}
+
+.border-\[2px\] {
+  border-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-\[b\] {
+  border-color: b;
+}
+
+.border-\[blac\] {
+  border-color: blac;
+}
+
+.border-\[black\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
+
+.bg-\[\#3D68E1\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(61 104 225 / var(--tw-bg-opacity, 1));
+}
+
 .p-\[\] {
   padding: ;
 }
@@ -606,12 +700,55 @@ video {
   padding: 30px;
 }
 
+.p-\[15px\] {
+  padding: 15px;
+}
+
+.p-\[1\] {
+  padding: 1;
+}
+
+.p-\[10px\] {
+  padding: 10px;
+}
+
+.py-\[\] {
+  padding-top: ;
+  padding-bottom: ;
+}
+
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.px-\[30px\] {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-\[25px\] {
   font-size: 25px;
 }
 
 .text-\[20px\] {
   font-size: 20px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
+.text-\[60px\] {
+  font-size: 60px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
 }
 
 .font-bold {
@@ -631,12 +768,37 @@ video {
   color: rgb(128 128 128 / var(--tw-text-opacity, 1));
 }
 
+.text-\[whi\] {
+  color: whi;
+}
+
+.text-\[white\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
 @media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:flex {
     display: flex;
   }
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:w-\[50\%\] {
+    width: 50%;
+  }
+
+  .lg\:w-\[610px\] {
+    width: 610px;
+  }
+
+  .lg\:w-\[300px\] {
+    width: 300px;
   }
 }
